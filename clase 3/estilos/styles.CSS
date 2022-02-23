@@ -1,0 +1,521 @@
+/*tipografia
+font-family: 'Dongle', sans-serif;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+
+/*CSS_INICIO*/
+/*---HEADER---*/
+* {
+    margin: 0px 0px 0px 0px;
+  
+}
+
+.headerInicio{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementos{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombreImagen{
+    width: 100%;  
+
+
+}
+
+.nombrePagina{
+    font-size: 81px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 68px;
+    color: greenyellow;
+    background-color: rgb(88, 18, 153);
+    animation: aparecer;
+    animation-duration: 4s;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+
+/*navprincipal*/
+
+
+
+.nav1 {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+   
+}
+.listaDeNav1{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+transition: all 2s;
+}
+.item1:hover{
+    transform: scale(1.5,1);
+    
+}
+/*MAIN*/
+/*HEROE*/
+
+.heroInicio{
+    background-image:url(https://cdn.andro4all.com/files/2021/06/mejores-series-videojuegos-netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 61vh;
+    width: 85%;
+    padding-left: 10%;
+    margin-left: 3%;
+}
+.contenedorHeroInicio{
+
+}
+.textoHero{
+font-size: 120px;
+color: greenyellow;
+font-family: 'Dongle', sans-serif;
+text-align: end;
+padding: 2%;
+}
+.textoHero1{
+    font-size: 120px;
+    color: greenyellow;
+    font-family: 'Dongle', sans-serif;
+    text-align: end;
+    padding: 2%;
+    position: absolute;
+    left: 41%;
+    top: 46%;
+}
+.botonHero{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.9rem;
+    border-radius: 0.7rem;
+    background-image:linear-gradient(to left, purple,rgb(247, 0, 255));
+    color: yellow;
+    position:absolute;
+    left: 71%;
+    top: 65%;
+}
+/*/HEROE*/
+/*SECCIONQUEHACEMOS*/
+.contenedorQueHacemos{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    padding: 0% 21%;
+    
+}
+.queHacemos{
+    font-size: 3.7rem;
+    margin: 4%;
+    text-align: center;
+    padding: 1%;
+  color:blueviolet;
+  font-family: 'Luxurious Roman', cursive;
+  
+}
+.textoQueHacemos{
+font-size: 2.7rem;
+text-align: center;
+color:violet;
+font-family: 'Dongle', sans-serif;
+}
+/*QUEHACEMOS*/
+/*SECCIONGRIDSINICIO*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    width: 100%;
+    height: 23rem;
+    grid-gap: 38px;
+   }
+   
+   #borderInicio{
+       border: 1px solid black;
+       background-color:aliceblue;
+   }
+   .seccion1{
+justify-self: center;
+  width: 85%;
+}
+
+   .seccion2{
+justify-self: center;
+ width: 85%;
+}
+   .seccion3{
+justify-self: center;
+ width: 85%;
+}
+   .seccion4{
+justify-self: center;
+  width: 85%;
+}
+/*/SECCIONGRIDSINICIO*/
+
+
+
+/*/HEADER*/ 
+/*FOOTER*/
+
+/*/FOOTER/
+/*INICIO*/
+  
+
+
+                       /*<------>*/
+
+/*NINTENDO*/
+/*CSS_NINTENDO*/
+/*HEADER*/
+
+
+.headerNintendo{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementosNintendo{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+
+
+.logoNombreNintendo{
+    width: 100%;    
+   
+}
+
+.nombrePaginaNintendo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 47px;
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Nintendo {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+   
+}
+.listaDeNav1Nintendo{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Nintendo{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+
+
+}
+/*MAIN_NINTENDO*/
+.logoMarcaNintendo{
+position:relative ;
+
+}
+.imagenLogoMarcaNintendo{
+width: 50%;
+position: absolute;
+left: 25%;
+padding: 8% 1%;
+}
+/*/NINTENDO*/
+
+                      /*<------>*/
+
+/*PLAYSTATION*/
+/*CSS_PLAYSTATION*/
+/*HEADER*/
+
+.headerInicioPlay{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.headerElementosPlay{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombreImagenPlay{
+    width: 100%;  
+
+
+}
+
+.nombrePaginaPlay{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 47px;
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Play {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+}
+.listaDeNav1Play{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Play{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+
+
+}
+/*MAIN_PLAYSTATION*/
+.logoMarcaPlaystation{
+position: relative;
+}
+.imagenLogoMarcaPlaystation{
+position: absolute;
+left: 25%;
+}
+/*/MAIN_PLASTATION*/
+
+   /*/PLAY*/
+
+                    /*<----->*/
+
+/*XBOX*/
+/*CSS_XBOX*/
+/*HEADER*/
+
+.headerInicioXbox{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementosXbox{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombreImagenXbox{
+    width: 100%;  
+
+
+}
+
+.nombrePaginaXbox{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 47px;
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Xbox {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+}
+.listaDeNav1Xbox{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Xbox{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+
+
+}
+
+/*/HEADER*/
+/*MAIN_XBOX*/
+.logoMarcaXbox{
+position: relative;
+}
+.imagenLogoMarcaXbox{
+position: absolute;
+left: 25%;
+width: 51%;
+}
+/*/MAIN_XBOX*/
+
+/*/XBOX*/
+                      /*<----------->*/
+/*PCGAMER*/
+/*CSS_PC*/
+/*HEADER*/
+
+.headerPc{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementosPc{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombrePc{
+    width: 100%;  
+
+
+}
+
+.nombrePaginaPc{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 47px;
+    color: greenyellow;
+    background-color: blueviolet;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Pc {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+   
+}
+.listaDeNav1Pc{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Pc{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+
+
+}
+
+/*MAIN_PC*/
+.logoMarcaPc{
+position: relative;
+}
+.imagenLogoMarcaPc{
+    position: absolute;
+    left: 39%;
+    top: 0%;
+    padding: 4% 0%;
+}
+/*/MAIN_PC*/
+ 
+
+
