@@ -1,0 +1,104 @@
+/*PCGAMER*/
+/*CSS_PC*/
+/*HEADER*/
+
+.headerPc{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 450px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementosPc{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombrePc{
+    width: 100%;  
+
+
+}
+
+.nombrePaginaPc{
+    font-size: 81px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 68px;
+    color: greenyellow;
+    background-color: rgb(88, 18, 153);
+    font-family: 'Playfair Display', serif;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Pc {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+   
+}
+.listaDeNav1Pc{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Pc{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+transition: all 2s;
+}
+
+.item1Pc:hover{
+    transform: scale(1.5,1);
+    color: rgb(222, 102, 233);
+}
+
+/*MAIN_PC*/
+.logoMarcaPc{
+position: relative;
+background-image: linear-gradient(
+180deg
+, #1e1919f0, transparent)
+}
+.imagenLogoMarcaPc{
+    position: relative;
+    left: 39%;
+    top: 0%;
+    padding: 6% 0%;
+}
+.noticiasRelevantesPC{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+.palabraPCGris{
+color: gray;
+text-align: center;
+}
+.noticiasPC{
+    font-size: 6.3rem;
+    color: #646161;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: overline;
+    text-align: center;
+    padding: 0% 43% 1% 44%;
+}
+
+/*/MAIN_PC*/
+ 

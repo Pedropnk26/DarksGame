@@ -1,0 +1,123 @@
+/*<-------------JS------------>*/
+/*-CAROUSELES*/
+
+.carousel {
+    position: relative;
+    width: 43%;
+    
+    left: 28.7%;
+    top: 15px;
+    margin: 0% 0% 11% 0%;
+  }
+  /*<-CARDS*/
+  .card-img-top{
+    width: 32rem;
+    height: 68%;
+  }
+  /*MEDIA QUERIES*/
+  @media only screen and  (max-width: 320px )
+  {
+    .headerInicio{
+        height: 26rem;
+        width: 43rem;
+    }
+    .headerElementos{
+        height: 26rem;
+    }
+    .nombrePagina{
+        width: 41rem;
+        height: 11rem;
+    text-align: center;
+    padding: 0% 4%;
+    }
+    .nav1{
+        height: 10rem;
+        width: 6rem;
+    }
+    .listaDeNav1{
+        gap: 3rem;
+    }
+    .item1{
+        font-size: 32px;
+        transition: none;
+    }
+    
+    .mainInicio{
+        width: 44rem;
+    }
+     .heroInicio{
+         height: 20rem;
+         height: 86%;
+         padding-left: 9%;
+     }
+     .textoHero{
+        font-size: 4.5rem;
+        padding: 1% 0% 0% 0%;
+        margin: 0% 21% 0% 10%;
+     }
+     .textoHero1{
+             font-size: 1.9rem;
+            padding: 1% 6% 17% 3%;
+           margin: 1% 24% 3% 3%;
+            right: 6rem;
+           bottom: 1.5rem;
+           left: 1.4rem;
+  }
+     
+     .botonHero{
+         font-size: 1.7rem;
+        width: 71%;
+    bottom: 12rem;
+    height: 6rem;
+     }
+     .queHcemos{
+         font-size: 2.7rem;
+     }
+     .textoQueHacemos{
+         font-size: 1rem;
+     }
+  .grid{
+    height: 8rem;
+  }
+  .conocenosTitulo{
+    font-size: 1.7rem;
+  
+  }
+  .conocenosTexto1{
+    font-size: 1.3rem;
+  }
+  .textoConocenos1{
+    font-size: 1rem;
+  }
+  .textoConocenos2{
+    font-size: 1rem;
+  }
+  .textoConocenos3{
+    font-size: 1rem;
+  }
+  .persona3{
+    width: 62%;
+    height: 5.6rem;
+  }
+  .footerInicio{
+    width:43rem ;
+    height:27rem ;
+  }
+  .imagenLogoFooter{
+    right: 1rem;
+    left: 2rem;
+  }
+  .contactanos{
+    bottom: 0%;
+    
+    left: 30%;
+  }
+  .contenedorListaFooter{
+    left: 29%;
+  }
+  .seccionRedesSociales{
+    top: 22%;
+    flex-direction: column;
+    right: 3rem;
+  }
+    }

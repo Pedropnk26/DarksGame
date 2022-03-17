@@ -1,0 +1,102 @@
+/*XBOX*/
+/*CSS_XBOX*/
+/*HEADER*/
+
+.headerInicioXbox{
+    background-image: url(https://i.blogs.es/f370df/24yvinp.jpg/840_560.png);
+    height: 460px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.headerElementosXbox{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction:column-reverse;
+   
+
+}
+.logoNombreImagenXbox{
+    width: 100%;  
+
+
+}
+
+.nombrePaginaXbox{
+    font-size: 81px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 68px;
+    color: rgb(12, 235, 12);
+    background-color: rgb(88, 18, 153);
+    font-family: 'Playfair Display', serif;
+}
+
+/*navprincipal*/
+
+
+
+.nav1Xbox {
+    display: flex ;
+    justify-content: center;
+    align-content:space-around;
+}
+.listaDeNav1Xbox{
+    padding: 15px 10px;
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+   
+    
+}
+.item1Xbox{
+    text-decoration: none;
+color: yellowgreen;
+font-size: 42px;
+display:flex;
+flex-direction: unset;
+justify-content: space-between;
+transition: all 2s;
+}
+.item1Xbox:hover{
+    transform: scale(1.5,1);
+    
+}
+/*/HEADER*/
+/*MAIN_XBOX*/
+.logoMarcaXbox{
+    background-image: linear-gradient( 
+        0deg
+         , #10121100, #32fb00b8);
+}
+.imagenLogoMarcaXbox{
+    width: 50%;
+    position: relative;
+    left: 26%;
+    margin: 2% 0%;
+}
+.noticiasRelevantesXbox{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4rem;
+}
+.palabraXboxVerde{
+color:rgb(126, 207, 4);
+text-align: center;
+}
+.noticiasXbox{
+    font-size: 6.3rem;
+    color: rgb(28, 226, 10);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: overline;
+    text-align: center;
+    padding: 0% 43% 1% 44%;
+}
+
+/*/MAIN_XBOX*/
+ 
+/*/XBOX*/
